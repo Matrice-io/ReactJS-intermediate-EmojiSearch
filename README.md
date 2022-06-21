@@ -14,15 +14,21 @@ Emoji Search vous permet de chercher des emojis dans une liste et de les copier 
 
 - the file emojis.json contains all the emojis you will need
 
-- in App.js you will call to components : Line and SearchBar
-- create a component Line.js : it displays ONE emoji and it's text 
-- create a component SearchBar.js : when the user write something, the emoji's list update with the right suggestions
+in App.js you will call to components : Line and SearchBar :
+
+- 1/ create a component Line.js : it displays ONE emoji and it's text 
+- 2/ in App, calls Line components in order to display all the emojis
+- 3/ create a component SearchBar.js : when the user write something, the emoji's list update with the right suggestions
+
+- 4/ 
 
 À vous de jouer!!
 
 
 ## Bonus :
 
-* améliorez les fonctionnalités de recherche
+* upgrade your search algorithm :
+  - limit display to 30 lines
+  - 
 
 * Améliorez le rendu visuel
